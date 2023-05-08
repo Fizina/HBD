@@ -18,12 +18,12 @@ let betDataFalse = false
         if (username.value == user.name && lastname.value == user.lastname) {
             window.location.href = 'home.html' ;
         }
-    else{betDataFalse = true}
+   // else{betDataFalse = true}
     })
     
-    if(betDataFalse){
-        alert('You are not Joosi !')
-        username.value = ""
-        lastname.value = ""
-    }
+//     if(betDataFalse){
+//         alert('You are not Joosi !')
+//         username.value = ""
+//         lastname.value = ""
+//     }
 }
