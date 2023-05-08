@@ -16,7 +16,7 @@ let betDataFalse = false
     //Bet Login
     users.forEach(user => {
         if (username.value == user.name && lastname.value == user.lastname) {
-            window.location.href = './Home/home.html' ;
+            window.location.href = 'home.html' ;
         }
     else{betDataFalse = true}
     })
