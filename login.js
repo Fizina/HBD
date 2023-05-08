@@ -20,7 +20,8 @@ let betDataFalse = false
         }
    // else{betDataFalse = true}
     })
-    
+    username.value = ""
+     lastname.value = ""
 //     if(betDataFalse){
 //         alert('You are not Joosi !')
 //         username.value = ""
